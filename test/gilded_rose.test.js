@@ -59,7 +59,6 @@ describe("Shop", () => {
 
   describe('reduce sellIn', () => {
     
-    
     it('reduces regular item sell in by 1', () => {
       const items = shop.reduceSellIn();
       expect(items[0].sellIn).toBe(4);
